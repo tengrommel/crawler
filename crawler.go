@@ -14,7 +14,7 @@ var wg sync.WaitGroup
 
 func main()  {
 	now := time.Now()
-	url:="http://wxgirllive.com/forum-134-5.html"
+	url:="公司网站保密"
 	doc, err := goquery.NewDocument(url)
 	if err!=nil{
 		fmt.Errorf("下载错误：%#v", err)
